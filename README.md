@@ -1,50 +1,53 @@
 # anarchy-a
 
 ```
-         -------
-       /         \
-      /    / \    \
-     |    /   \    |
-     |   /     \   |
-     |  /-------\  |
-     | /         \ |
-      \           /
-       \         /
-         -------
+          ----------
+      //--          --\\
+    //        \\        \\
+  //          \\          \\
+//          //  \\          \\
+||          //  \\          ||
+||        //      \\        ||
+||        //      \\        ||
+||      ------------        ||
+||      //          \\      ||
+  ||    //          \\    ||
+  \\    //          \\    //
+    \\//              \\//
+      \\--          --//
+          ----------
 ```
 
-> *"The urge to destroy is also a creative urge." -- Mikhail Bakunin, 1842*
+> *You didn't ask permission to draw this. Good. You never needed it.*
 
-`anarchy-s` draws the **Circle-A** -- the universal symbol of anarchism -- stroke
-by stroke in your terminal, in glorious ANSI color. Five stages. Sparks flying.
-Optional explosion. Absolutely no rulers.
+`anarchy-a` draws the **Circle-A** -- stroke by stroke, arc by arc, in ANSI
+color -- right in your terminal. Five stages. Sparks flying. Optional explosion.
+Optional blood. Absolutely no rulers.
 
-A spiritual successor to [`cool-s`](https://github.com/fourzerosix/cool-s).
+A sibling project to [`cool-s`](https://github.com/fourzerosix/cool-s).
+Same energy. Different symbol. Significantly more theory.
 
 ---
 
-## Install in 30 seconds
+## Install (no permit required)
 
-**From source (Linux / macOS / WSL):**
-
+**From source:**
 ```bash
-git clone https://github.com/fourzerosix/anarchy-s.git
-cd anarchy-s
+git clone https://github.com/fourzerosix/anarchy-a.git
+cd anarchy-a
 make
 sudo make install
 ```
 
-**Via pip:**
-
+**Via pip** *(the system works for us sometimes)*:
 ```bash
-pip install anarchy-s
-anarchy-s
+pip install anarchy-a
+anarchy-a
 ```
 
-**Via Docker:**
-
+**Via Docker** *(containerized dissent)*:
 ```bash
-docker run --rm -it fourzerosix/anarchy-s
+docker run --rm -it fourzerosix/anarchy-a
 ```
 
 ---
@@ -52,202 +55,237 @@ docker run --rm -it fourzerosix/anarchy-s
 ## Usage
 
 ```
-anarchy-s [OPTIONS]
+anarchy-a [OPTIONS]
 
   -f                Fast mode (no animation)
-  -d USECS          Per-pixel delay in microseconds (default: 30000)
+  -d USECS          Per-pixel delay (default: 30000)
   -s SCALE          Scale 1-8 (default: 2, auto-fits terminal)
   -r                Rainbow finale
-  -c, --crass       Crass mode: all-red, faster, louder
-  -b, --bakunin     Bakunin: builds the symbol, then destroys it
-  -k, --kropotkin   Mutual aid: draw two symbols side by side
-  -n, --nogods      "No gods, no masters" tagline
-  --punk            Punk color scheme (all red)
-  --plain           No color output
+  -c, --crass       Crass mode: all red, no mercy, faster
+  -p, --punk        Punk: A breaks free of the circle, dripping red paint
+  -b, --bakunin     Bakunin: builds it, then blows it up
+  -k, --kropotkin   Mutual aid: two symbols slide in and meet
+  -n, --nogods      "No gods, no masters" + fire
+  --plain           No color (for the truly ascetic)
   -h, --help        Help
 ```
 
 ```bash
-anarchy-s                   # The full animated experience
-anarchy-s -c                # Crass mode -- fast, red, loud
-anarchy-s -b                # Builds and then explodes
-anarchy-s -k                # Two symbols, mutual aid
-anarchy-s -f -s 4           # Instant, large
-anarchy-s -d 60000 -r       # Slow with rainbow
-anarchy-s -n                # With "No gods, no masters"
-anarchy-s -b -c             # Crass + Bakunin: chaotic and destructive
+anarchy-a               # The full experience
+anarchy-a -p            # Punk graffiti mode -- A explodes out, screen bleeds
+anarchy-a -b            # Builds then destroys (very on brand)
+anarchy-a -k            # Two symbols slide in and shake hands
+anarchy-a -n            # Fire. Obviously.
+anarchy-a -c -b         # Red + explosion. No further notes.
+anarchy-a -f -s 4       # Instant, large, no patience
+anarchy-a -d 60000 -r   # Slow drag + rainbow, for the dreamy anarchists
 ```
 
 ---
 
 ## The Lore
 
-### The symbol itself
+### Nobody asked your permission and that's the whole point
 
-The Circle-A is an A -- for Anarchy -- enclosed in a circle. It is the most
-universally recognized symbol of anarchism and one of the most recognizable
-political symbols in the world, period. You have seen it on walls. You have
-seen it on leather jackets. You have seen it on the inside cover of punk records
-you found at a garage sale for 50 cents. If you grew up in the 80s or 90s,
-you probably drew it on something you shouldn't have.
+The Circle-A is a capital A -- for *anarchy* -- enclosed in a circle. It is the most
+universally recognized symbol of anarchism, one of the most reproduced political
+symbols on the planet, and almost certainly on a jacket within 50 feet of you right
+now. You have seen it on walls, on patches, on record sleeves, on the forearms of
+people your parents warned you about, and on the inside cover of at least one notebook
+from 1994.
 
-It is composed of five elements in this program:
+You have probably drawn it yourself. That's the thing about this symbol -- it just
+wants to be drawn. It has five elements:
 
-- The upper arc of the circle (yellow)
-- The lower arc of the circle (yellow)
-- The left leg of the A, a forward slash (cyan)
-- The right leg of the A, a backslash (magenta)
-- The crossbar, a horizontal line (red -- always red)
+- Upper arc of the circle
+- Lower arc of the circle
+- Left leg of the A `/`
+- Right leg of the A `\`
+- The crossbar `-` -- always red, because of course it is
 
-Five strokes. Clean. Defiant. Efficient. Like a good protest slogan.
+Five strokes. Efficient. Defiant. No committee approved this design. No trademark
+was registered. No logo brief was issued. A nineteen-year-old in Paris decided
+the world needed a better symbol and drew one. Then everyone else drew it too.
+Forever.
 
-### Born in Paris, 1964 (not where you expected, is it)
+---
 
-The circled A first appeared in Western Europe in the early 1960s. It was created
-by anarchists from the Paris Libertarian Youth group -- specifically a nineteen-year-old
-Spanish anarchist named Tomas Ibanez and his companion Rene Darras. They were
-looking for a symbol that could unite all anarchists in a single, unifying,
-easy-to-draw emblem.
+### Born in Paris, 1964 (yeah, that Paris, those 60s)
 
-Their reasoning was remarkably practical. Communists had the hammer and sickle --
-a simple, instantly reproducible symbol you could spray on a wall in three seconds.
-Anarchists, who had been around longer and had arguably more interesting ideas,
-were stuck writing their entire ideology on every wall they tagged. That's not
-efficient. That's not punk. That's a thesis statement.
+The Circle-A was invented by anarchists from the Paris Libertarian Youth group.
+The primary credit goes to **Tomás Ibáñez**, a Spanish anarchist exile, and his
+companion **René Darras**. Ibáñez was nineteen at the time, which is the perfect
+age to decide you're going to design the visual identity of a global political
+philosophy.
 
-So Ibanez wrote about the motivation when proposing the new symbol:
+The motivation was embarrassingly practical: communists had the hammer and sickle,
+a simple, spray-can-friendly symbol you could tag in three seconds. Anarchists --
+who had been around longer, had more interesting ideas, and were arguably more
+fun at parties -- had nothing equivalent. Every time they wanted to mark their
+presence they basically had to write an essay on the wall.
 
-"Two main motivations guided us: first, to facilitate and make the practical
-activities of inscriptions and postings more efficient, and second, to ensure a
-broader presence of the anarchist movement in the public eye, through a common
-characteristic for all expressions of anarchism in its public manifestations."
+Ibáñez laid it out plainly: they needed something that would make "practical
+activities of inscriptions and postings more efficient" and ensure "a broader
+presence of the anarchist movement in the public eye." The anarchists wanted a
+logo. The anticapitalists needed branding. History is full of this kind of irony
+and it's fine.
 
-In other words: they wanted a logo. The anarchists went corporate. And it worked
-spectacularly -- which is either poetic or ironic, depending on your politics.
+The symbol spread through European anarchist circles through the late 60s. Then
+punk happened and it went everywhere.
 
-### What does it mean? (Depends who you ask)
+---
 
-Some anarchists interpret the A as the Greek "anarkhia" meaning "without ruler" or
-"without authority," and the circle as the letter O, standing for "order" or
-"organization." This reading references Pierre-Joseph Proudhon's famous definition
-from his 1840 book *What Is Property?*: "As man seeks justice in equality, so
-society seeks order in anarchy."
+### What does it mean? (Ask five anarchists, get six answers)
 
-Proudhon, for the record, was the first person to call himself an anarchist. He also
-said "property is theft," which is a sentence that has started more arguments at
-Thanksgiving dinner than any other in recorded history.
+The received interpretation: the **A** stands for *anarchy*, the **circle** is the
+letter O for *order*, referencing Pierre-Joseph Proudhon's famous 1840 line from
+*What Is Property?*: *"As man seeks justice in equality, so society seeks order in
+anarchy."* So the symbol means: anarchy IS order, actually, you just haven't
+thought hard enough about it.
 
-However, Ibanez himself -- the guy who actually invented the symbol -- has pushed
-back on this interpretation. He noted that the A-for-anarchy and O-for-order reading
-was not a meaning he and his companions debated or intended when they created it.
-He used the example of the punk version, where the lines of the A go beyond the
-circle, to point out this would make no sense if O meant "order."
+Ibáñez himself, in a 2024 essay on the symbol's 60th anniversary, pushed back on
+this. He noted that the O-for-order reading wasn't something he and his companions
+debated when they created the symbol -- it was a retrospective interpretation
+that spread and stuck. He pointed to the punk variants where the A's legs
+extend beyond the circle as evidence that the circle-as-O reading was never
+the original intent.
 
-So the official meaning of the Circle-A is: whatever you need it to mean right now.
-Which, frankly, is very on-brand for anarchism.
+So the official meaning is: whatever you need it to mean, right now, in this
+context. Which is very on-brand for a philosophy that disputes the legitimacy
+of central authority.
 
-### Punk rock did the heavy lifting
+---
 
-The symbol stayed largely within European anarchist circles through the 1960s and
-into the 1970s. Then punk happened.
+### The punk chapter (this is the part that matters for our purposes)
 
-In the 1970s, anarcho-punk and punk rock bands like Crass began using the circle-A
-symbol in red, thereby introducing it to an entirely new generation of non-anarchists.
-Crass founder Penny Rimbaud would later say that the band probably first saw the
-symbol while traveling through France -- making the Circle-A one of the few things
-that punk rock can thank French intellectuals for.
+The symbol lived largely within European anarchist circles through the late 60s
+and 70s. Then, in 1977, a band called **Crass** formed in a commune in Essex,
+England, and everything changed.
 
-Crass, formed in 1977, were not your average punk band. They lived communally on
-a farm in Essex, England. They practiced what they preached about anarchism, pacifism,
-vegetarianism, and feminism. They self-released records. They printed their own posters.
-They made the circle-A part of their visual identity -- and through their music and
-artwork, it spread from the walls of Paris to the walls of every city that had a
-record store with a punk section.
+Crass weren't your average punk band. They lived collectively. They self-released
+records. They designed their own artwork -- angular, confrontational, black and
+white. They printed their own posters. They practiced what they screamed about.
+And they adopted the Circle-A in **red**, making it the visual centerpiece of
+anarcho-punk's aesthetic.
 
-By the time *Never Mind the Bollocks* was shaking grandparents and the Reagan
-administration was doing its thing, the Circle-A was everywhere. It no longer meant
-you had read Kropotkin. It meant you were pissed off and had a sharpie.
+Through Crass's records, gig posters, and the broader anarcho-punk network of
+zines and tape trades, the Circle-A went from a European activist symbol to a
+global shorthand for a very specific kind of pissed-off. By the early 80s it was
+on walls from London to São Paulo, Detroit to Tokyo. It no longer required
+any theoretical background to understand. It meant: *I am not okay with how
+things are. I'm telling you directly.*
+
+That's `-c / --crass`: everything in red, delay cut down, moving faster. No time
+for subtlety. The walls aren't going to tag themselves.
+
+---
 
 ### The black flag (a brief history of fabric and fury)
 
-The Circle-A was a 1960s invention, but anarchism's relationship with symbols goes
-back much further. The black flag predates it by about a century.
+The Circle-A is a 1964 invention, but anarchism's relationship with symbols goes
+back much further. The **black flag** predates it by about a century.
 
-The origins of the black flag as an anarchist symbol are uncertain, but by the early
-1880s black was already an anarchist color. The name "Black International" was used
-by a London-based anarchist group founded in July 1881.
+By the early 1880s, black was already established as an anarchist color. The "Black
+International" name was used by a London-based anarchist group founded in 1881. But
+the moment that cemented it happened on **March 9, 1883**, in Lyon, France.
 
-But the moment that really mattered happened on March 9, 1883, in Lyon, France.
-Louise Michel -- a legendary figure of the Paris Commune, always dressed in black,
-who had already served time in a penal colony for her role in the Commune uprising --
-carried a black flag made from a rag and a broom handle through the streets in
-protest against hunger and poverty. When put on trial for it, she told the court:
+**Louise Michel** -- teacher, poet, veteran of the Paris Commune, already convicted
+once and sentenced to a penal colony for her role in the uprising -- carried a black
+flag made from a rag and a broom handle through the streets in protest against hunger
+and poverty. When put on trial, she told the court:
 
-"Ah certainly, Mr. Attorney General, you find it strange that a woman dares to
-defend the black flag. Why did we shelter the demonstration under the black flag?
-Because this flag is the flag of strikes and it indicates that the worker has no
-bread."
+*"Why did we shelter the demonstration under the black flag? Because this flag is the
+flag of strikes and it indicates that the worker has no bread."*
 
-She got six years in prison. The black flag became the symbol of anarchism.
+She got six years in prison. The black flag became the permanent symbol of anarchism.
 
 A French anarchist paper called *Le Drapeau Noir* (The Black Flag) printed its first
-issue in August 1883, shortly after Michel's trial. The black flag crossed the
-Atlantic -- it was displayed in Chicago at an anarchist demonstration in November 1884,
-where the English-language paper of the Chicago anarchists described it as "the fearful
-symbol of hunger, misery and death."
+issue months later. The flag appeared in Chicago at anarchist demonstrations in 1884,
+described as "the fearful symbol of hunger, misery and death." Thousands marched
+behind it at Kropotkin's funeral in 1921. It never stopped.
 
-Thousands of anarchists attended Kropotkin's 1921 funeral behind the black flag. The
-tradition holds.
+---
 
-### The key players (your required reading for this program)
+### The cast of characters (your field guide to the flags)
 
-**Pierre-Joseph Proudhon (1809-1865)** -- The first person to call himself an anarchist.
-Coined "property is theft." Had a massive beard. Wrote *What Is Property?* in 1840.
-Proudhon would be baffled by most of the internet but would probably have opinions about
-platform monopolies.
+**Pierre-Joseph Proudhon (1809--1865)** -- The first person to call himself an
+anarchist. Coined *"property is theft"* in 1840. Was subsequently unable to attend
+a dinner party without causing a scene. Wrote *What Is Property?* at 31. Had the
+confident beard of a man who was absolutely certain he was right.
 
-**Mikhail Bakunin (1814-1876)** -- The "creative destruction" guy. Russian. Huge beard.
-Said "the urge to destroy is also a creative urge" in 1842, which became the epigraph
-for an entire aesthetic. Feuded with Marx for years, which honestly sounds exhausting.
-The `-b/--bakunin` flag is named for him because he believed in building things up
-just to watch them come apart.
+**Mikhail Bakunin (1814--1876)** -- *"The urge to destroy is also a creative urge,"*
+1842. Russian. Revolutionary. Imprisoned, exiled, escaped, kept going. Feuded with
+Marx for years in a conflict that was genuinely about ideas and not at all about
+the fact that they had identical energies and couldn't both be in the same room.
+The `-b / --bakunin` flag is his: the symbol is built completely, there is a
+pause, and then it is destroyed in an expanding shockwave. Creative destruction.
+Philosophically correct.
 
-**Peter Kropotkin (1842-1921)** -- Wrote *Mutual Aid: A Factor of Evolution* (1902),
-arguing that cooperation rather than competition was the driver of evolutionary success.
-Was a prince who gave it all up. Had the most magnificent beard of the three. The
-`-k/--kropotkin` flag draws two Circle-As side by side, because mutual aid.
+**Peter Kropotkin (1842--1921)** -- Wrote *Mutual Aid: A Factor of Evolution* (1902),
+arguing that cooperation rather than competition was the primary driver of evolutionary
+success. Was a prince. Gave it up. Moved to London. Kept writing. Had the most
+impressive beard in the entire history of anarchism, which is saying something.
+The `-k / --kropotkin` flag draws two Circle-As that **slide in from opposite
+edges of the screen and meet in the middle** -- because mutual aid, because
+cooperation, because two symbols arriving alone and becoming adjacent is the
+whole argument in 200 milliseconds.
 
-**Louise Michel (1830-1905)** -- "The Red Virgin of Montmartre." Teacher, poet,
-anarchist, convicted revolutionary. Carried the black flag. Sentenced to a penal
-colony. Came back. Kept going. Did not stop. Icon.
+**Louise Michel (1830--1905)** -- "The Red Virgin of Montmartre." Teacher, poet,
+anarchist, Paris Commune commander, twice convicted, twice kept going. Carried
+the black flag. Never stopped. Icon. Full stop.
 
-**Crass (1977-1984)** -- The anarcho-punk band from Essex that painted the Circle-A
-red and spray-painted it everywhere. Brought anarchist theory to kids who would
-otherwise have just been angry. The `-c/--crass` flag renders everything in red
-and runs faster, because punk is not slow.
+**Crass (1977--1984)** -- The Essex commune punk band who painted the Circle-A
+red and spray-painted it onto the walls of a generation. Brought anarchist theory
+to kids who otherwise would have just been angry with no framework. Made it look
+cool to be principled. Still unavailable for reunion tours because that would
+contradict everything they stood for.
+
+---
 
 ### "No gods, no masters"
 
-The phrase "No gods, no masters" (*Ni Dieu ni Maître* in French) has been associated
-with anarchist philosophy since at least the 1870s. It appeared as the title of
-Blanqui's 1880 newspaper, spread through Kropotkin's 1885 *Words of a Rebel*, and
-appeared in an 1896 Bordeaux anarchist manifesto.
+*Ni Dieu ni Maître* -- no gods, no masters -- has been attached to anarchist
+philosophy since at least the 1870s. It appeared as the title of Auguste Blanqui's
+newspaper in 1880. It spread through Kropotkin's *Words of a Rebel* in 1885. It
+appeared in the 1896 Bordeaux anarchist manifesto. Margaret Sanger used it as the
+slogan for her birth control newspaper *The Woman Rebel* in 1914. It appeared on
+tombstones. It appeared on a 1964 French protest song against capital punishment.
 
-Margaret Sanger used it as the slogan for her birth control newspaper *The Woman Rebel*
-in 1914. It appeared on the tombstones of revolutionaries. It appeared as the title of
-a 1964 French song against capital punishment. It appears on t-shirts at every record
-fair you have ever attended.
+It appears on t-shirts at every record fair, vintage shop, and punk show that has
+ever happened.
 
-The `-n/--nogods` flag displays it as the tagline. Because some phrases don't go stale.
+`-n / --nogods` displays it as the tagline and then **burns the screen down**,
+because some phrases deserve punctuation.
+
+---
+
+### Punk mode (`-p / --punk`)
+
+Punk variants of the Circle-A frequently show the A's legs extending **beyond**
+the circle -- breaking free of the enclosure, refusing containment. This is the
+visual argument: the A doesn't need the circle's permission. The symbol exceeds
+its frame.
+
+In `-p` mode, the A is drawn taller and wider than the circle, its peak above and
+feet below the arc. After the symbol is complete, **red paint starts dripping** from
+every lit pixel, running down the screen in streaks that pool and spread until the
+whole terminal floods red. Then it clears.
+
+It's the most visually dramatic mode. It's also the most thematically accurate.
+Punk didn't stay inside the lines either.
+
+---
 
 ### The terminal dimension
 
-The Circle-A has been sprayed on walls, stitched on patches, pressed into vinyl,
-printed on zines, tattooed on shoulders, and painted on the sides of buildings in
-every country with walls and people who disagreed with whoever owned the walls.
+The Circle-A has been spray-painted on walls, stitched onto patches, pressed into
+vinyl, printed on zines, tattooed on shoulders, painted on the sides of buildings,
+stamped on boots, and screamed through PA systems in every city with a venue and
+an audience that knew the words.
 
-It had never been drawn, arc by arc, in 5-stage animated ANSI color with optional
-mutual-aid mode and a Bakunin explosion, in a Linux terminal.
+It had never been drawn, arc by arc, in 5-stage animated ANSI color with a
+Bresenham circle algorithm, correct tangent-based character selection, optional
+blood drip and fire finales, and a mutual-aid handshake mode, in a Linux terminal.
 
 *Until now.*
 
@@ -255,131 +293,88 @@ mutual-aid mode and a Bakunin explosion, in a Linux terminal.
 
 ## How it works
 
-### Construction stages
+### Construction
 
-| Stage | What is drawn       | Color   |
-|------:|---------------------|---------|
-|     1 | Top arc of circle   | Yellow  |
-|     2 | Bottom arc of circle| Yellow  |
-|     3 | Left leg /          | Cyan    |
-|     4 | Right leg \         | Magenta |
-|     5 | Crossbar -          | Red     |
+| Stage | What is drawn        | Color   |
+|------:|----------------------|---------|
+|     1 | Top arc of circle    | Yellow  |
+|     2 | Bottom arc of circle | Yellow  |
+|     3 | Left leg `/`         | Cyan    |
+|     4 | Right leg `\`        | Magenta |
+|     5 | Crossbar `-`         | Red     |
 
 ### The geometry
 
-The Circle-A is drawn in a square-pixel coordinate space (sq-pixels: x: 0-18,
-y: 0-18), centered at (9, 9). The circle has radius 8. The A has its peak at
-sq (9, 2), its feet at sq (4, 14) and (14, 14), and a crossbar at sq y=9.
+Square-pixel space (0..19 × 0..19), circle center (9,9), radius 8.
+Terminal: `col = ox + sq_x * scale * 2`, `row = oy + sq_y * scale`.
+The x2 corrects for terminal character aspect ratio.
 
-At render time: `col = ox + sq_x * scale * 2`, `row = oy + sq_y * scale`.
-The x2 compensates for terminal character aspect ratio, giving round circles
-and clean 45-degree diagonals.
+Circle characters are chosen from the **tangent direction** at each point:
+the tangent to a circle is perpendicular to the radius, so at point (dx,dy)
+from center, tangent slope = −dx/dy. Near-zero slope → `-`, near-infinite → `|`,
+positive → `\`, negative → `/`. No lookup tables, just geometry.
 
-The circle is drawn parametrically: for each degree around the arc, a character
-is chosen based on the tangent direction (`-` for near-horizontal, `|` for
-near-vertical, `/` and `\` for diagonals).
+### The finales
 
-### The flags
+**`-b` Bakunin** -- flash, shockwave ring, every lit pixel becomes debris with
+velocity and gravity, fallout of ash. Named for Bakunin's 1842 "creative urge."
 
-**`-c / --crass`** -- Crass mode. Everything renders in bright red. The delay
-is reduced by a third. No patience for subtlety. Named for the anarcho-punk band
-that painted the Circle-A red and handed it to the world.
+**`-p` Punk** -- the A extends beyond the circle, then red paint drips from every
+pixel down the screen until it floods red. Clears. Named for nothing, explained by
+everything.
 
-**`-b / --bakunin`** -- Bakunin mode. The symbol is drawn in full, there is a
-moment of appreciation, and then it explodes: a flash, a shockwave ring expanding
-outward, every lit pixel flying away as debris with velocity and gravity, then
-ash drifting down. Named for Mikhail Bakunin's doctrine that destruction is
-also creation.
+**`-n` No gods** -- "No gods, no masters" tagline, then fire crawls up from the
+bottom and burns the screen bright before dying down to ash. Named for Blanqui,
+Kropotkin, Sanger, and everyone who wrote it on a wall.
 
-**`-k / --kropotkin`** -- Kropotkin mode. Two Circle-As are drawn side by side,
-with a gap between them. Named for Peter Kropotkin's *Mutual Aid* (1902), the
-argument that cooperation is more evolutionarily powerful than competition.
-Also just looks cool.
-
-**`-n / --nogods`** -- Replaces the tagline with "No gods, no masters."
-
-**`--punk`** -- Renders everything in red. Similar to `--crass` in color but
-without the speed change. For when you want the aesthetic without the urgency.
+**`-k` Kropotkin** -- two symbols slide in from opposite sides and meet in the middle
+with a small bounce, then rest adjacent. Named for *Mutual Aid* (1902).
 
 ---
 
 ## Installation
 
-### From source
-
 ```bash
-git clone https://github.com/fourzerosix/anarchy-s.git
-cd anarchy-s
-make
-sudo make install
-sudo make uninstall   # removes it
+git clone https://github.com/fourzerosix/anarchy-a.git
+cd anarchy-a && make && sudo make install
 ```
 
-Custom prefix:
-
 ```bash
-sudo make install PREFIX=/usr
+pip install anarchy-a
 ```
 
-One-liner:
-
 ```bash
-gcc -O2 -o anarchy-s src/anarchy-s.c -lm && sudo cp anarchy-s /usr/local/bin/
-```
-
-### Via pip
-
-```bash
-pip install anarchy-s
-anarchy-s
-```
-
-Compiles from bundled C source on first run. Requires gcc/cc/clang.
-
-### Via Docker
-
-```bash
-docker run --rm -it fourzerosix/anarchy-s
-docker run --rm -it fourzerosix/anarchy-s anarchy-s -b
-docker run --rm -it fourzerosix/anarchy-s anarchy-s -k -r
+docker run --rm -it fourzerosix/anarchy-a anarchy-a -p
 ```
 
 ---
 
 ## Platform support
 
-| Platform               | Status        |
-|------------------------|---------------|
-| Linux (x86-64)         | Full support  |
-| macOS (Intel/Apple)    | Full support  |
-| WSL / Windows Terminal | Full support  |
-| FreeBSD / other POSIX  | Should work   |
-| Windows (native cmd)   | No            |
-
----
-
-## Credits and further reading
-
-- [Anarchist Symbolism -- Wikipedia](https://en.wikipedia.org/wiki/Anarchist_symbolism)
-- [Circle-A -- Wikipedia](https://en.wikipedia.org/wiki/Circle-A)
-- [Tomas Ibanez, "The circled A at 60: True and false"](https://freedomnews.org.uk/2024/04/12/the-circled-a-at-60-true-and-false/) -- Freedom News, 2024
-- [Crass](https://en.wikipedia.org/wiki/Crass) -- the band that made it red
-- [Louise Michel](https://en.wikipedia.org/wiki/Louise_Michel) -- the woman who made the black flag matter
-- [Peter Kropotkin, *Mutual Aid: A Factor of Evolution*](https://en.wikipedia.org/wiki/Mutual_Aid:_A_Factor_of_Evolution) -- 1902
-- [Mikhail Bakunin](https://en.wikipedia.org/wiki/Mikhail_Bakunin) -- "The urge to destroy is also a creative urge," 1842
-- [Pierre-Joseph Proudhon, *What Is Property?*](https://en.wikipedia.org/wiki/What_Is_Property%3F) -- 1840
-- [`cool-s`](https://github.com/fourzerosix/cool-s) -- the original terminal toy this continues
-
----
-
-## Contributing
-
-See [CONTRIBUTING.md](CONTRIBUTING.md). Run `make check` for smoke tests.
+Linux, macOS, WSL -- full support. Needs a VT100-compatible terminal.
+If your terminal was built after 1990 you're fine.
+Windows cmd.exe -- no.
 
 ---
 
 ## License
 
-MIT -- see [LICENSE](LICENSE).
+**GNU General Public License v3.0** -- see [LICENSE](LICENSE).
 
-The Circle-A symbol itself belongs to everyone and no one. That's kind of the point.
+You are free to use, modify, and distribute this software under the terms of
+the GPL v3. If you distribute a modified version, you must also distribute
+the source code under the same license.
+
+The circle-A symbol belongs to everyone and no one. That's kind of the point.
+
+---
+
+## Credits
+
+- [Anarchist Symbolism -- Wikipedia](https://en.wikipedia.org/wiki/Anarchist_symbolism)
+- [Tomás Ibáñez, "The circled A at 60: True and false"](https://freedomnews.org.uk/2024/04/12/the-circled-a-at-60-true-and-false/) -- Freedom News, 2024
+- [Crass](https://en.wikipedia.org/wiki/Crass) -- the band that made it red
+- [Louise Michel](https://en.wikipedia.org/wiki/Louise_Michel) -- carried the flag
+- [Peter Kropotkin, *Mutual Aid*](https://en.wikipedia.org/wiki/Mutual_Aid:_A_Factor_of_Evolution) -- 1902
+- [Mikhail Bakunin](https://en.wikipedia.org/wiki/Mikhail_Bakunin) -- 1842
+- [`cool-s`](https://github.com/fourzerosix/cool-s) -- the original
