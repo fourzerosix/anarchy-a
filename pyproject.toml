@@ -7,14 +7,14 @@ name = "anarchy-s"
 version = "1.0.0"
 description = "Draw the Circle-A anarchy symbol in your terminal"
 readme = "README.md"
-license = { text = "MIT" }
+license = { text = "GPL-3.0-or-later" }
 requires-python = ">=3.8"
 keywords = ["terminal", "anarchy", "circle-a", "ascii", "animation", "cli", "punk"]
 classifiers = [
     "Development Status :: 5 - Production/Stable",
     "Environment :: Console",
     "Intended Audience :: End Users/Desktop",
-    "License :: OSI Approved :: MIT License",
+    "License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)",
     "Operating System :: POSIX :: Linux",
     "Operating System :: MacOS",
     "Programming Language :: Python :: 3",
