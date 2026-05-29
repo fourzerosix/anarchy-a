@@ -3,7 +3,7 @@ requires = ["setuptools>=68", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "anarchy-s"
+name = "anarchy-a"
 version = "1.0.0"
 description = "Draw the Circle-A anarchy symbol in your terminal"
 readme = "README.md"
@@ -24,16 +24,16 @@ classifiers = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/fourzerosix/anarchy-s"
-"Bug Tracker" = "https://github.com/fourzerosix/anarchy-s/issues"
+Homepage = "https://github.com/fourzerosix/anarchy-a"
+"Bug Tracker" = "https://github.com/fourzerosix/anarchy-a/issues"
 Wikipedia = "https://en.wikipedia.org/wiki/Anarchist_symbolism"
 
 [project.scripts]
-anarchy-s = "anarchy_s:main"
+anarchy-a = "anarchy_a:main"
 
 [tool.setuptools.packages.find]
 where = ["python"]
-include = ["anarchy_s*"]
+include = ["anarchy_a*"]
 
 [tool.setuptools.package-data]
-anarchy_s = ["*.c"]
+anarchy_a = ["*.c"]
