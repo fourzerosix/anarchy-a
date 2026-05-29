@@ -4,10 +4,10 @@ LDFLAGS ?= -lm
 PREFIX  ?= /usr/local
 BINDIR  := $(PREFIX)/bin
 MANDIR  := $(PREFIX)/share/man/man6
-BINARY  := anarchy-s
-SRC     := src/anarchy-s.c
+BINARY  := anarchy-a
+SRC     := src/anarchy-a.c
 VERSION := $(shell cat VERSION 2>/dev/null || echo "1.0.0")
-TARBALL := anarchy-s-$(VERSION).tar.gz
+TARBALL := anarchy-a-$(VERSION).tar.gz
 
 .PHONY: all install uninstall clean dist check
 
@@ -19,7 +19,7 @@ $(BINARY): $(SRC)
 install: $(BINARY)
 	install -d $(DESTDIR)$(BINDIR)
 	install -m 755 $(BINARY) $(DESTDIR)$(BINDIR)/$(BINARY)
-	@echo "Installed anarchy-s to $(DESTDIR)$(BINDIR)"
+	@echo "Installed anarchy-a to $(DESTDIR)$(BINDIR)"
 
 uninstall:
 	rm -f $(DESTDIR)$(BINDIR)/$(BINARY)
@@ -28,11 +28,11 @@ clean:
 	rm -f $(BINARY) $(TARBALL)
 
 dist: clean
-	mkdir -p /tmp/anarchy-s-$(VERSION)
-	cp -r . /tmp/anarchy-s-$(VERSION)
-	rm -rf /tmp/anarchy-s-$(VERSION)/.git
-	tar -czf $(TARBALL) -C /tmp anarchy-s-$(VERSION)
-	rm -rf /tmp/anarchy-s-$(VERSION)
+	mkdir -p /tmp/anarchy-a-$(VERSION)
+	cp -r . /tmp/anarchy-a-$(VERSION)
+	rm -rf /tmp/anarchy-a-$(VERSION)/.git
+	tar -czf $(TARBALL) -C /tmp anarchy-a-$(VERSION)
+	rm -rf /tmp/anarchy-a-$(VERSION)
 	@echo "Created $(TARBALL)"
 
 check: $(BINARY)
