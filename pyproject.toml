@@ -32,7 +32,6 @@ Wikipedia = "https://en.wikipedia.org/wiki/Anarchist_symbolism"
 anarchy-a = "anarchy_a:main"
 
 [tool.setuptools.packages.find]
-where = ["python"]
 include = ["anarchy_a*"]
 
 [tool.setuptools.package-data]
