@@ -7,7 +7,7 @@ name = "anarchy-a"
 version = "1.0.0"
 description = "Draw the Circle-A anarchy symbol in your terminal"
 readme = "README.md"
-license = { text = "GPL-3.0-or-later" }
+license = "GPL-3.0-or-later"
 requires-python = ">=3.8"
 keywords = ["terminal", "anarchy", "circle-a", "ascii", "animation", "cli", "punk"]
 classifiers = [
