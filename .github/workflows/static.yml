@@ -1,0 +1,48 @@
+name: Deploy README to Pages
+
+on:
+  push:
+    branches: ["main"] # Change to master if your default branch is master
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Install Pandoc
+        run: sudo apt-get install -y pandoc
+
+      - name: Convert README to Beautiful HTML
+        run: |
+          mkdir -p public
+          # This converts your README and applies a clean, modern responsive CSS style
+          pandoc README.md -s --metadata title="Documentation" \
+            -c "https://cdn.jsdelivr.net/npm/water.css@2/out/water.css" \
+            -o public/index.html
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload Artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: './public'
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
