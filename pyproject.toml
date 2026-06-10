@@ -32,6 +32,7 @@ anarchy-a = "anarchy_a:main"
 
 [tool.setuptools.packages.find]
 include = ["anarchy_a*"]
+include-package-data = true
 
 [tool.setuptools.package-data]
 anarchy_a = ["*.c"]
