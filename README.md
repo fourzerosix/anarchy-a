@@ -62,23 +62,23 @@ anarchy-a [OPTIONS]
   -s SCALE          Scale 1-8 (default: 2, auto-fits terminal)
   -r                Rainbow finale
   -c, --crass       Crass mode: all red, no mercy, faster
-  -p, --punk        Punk: A breaks free of the circle, dripping red paint
+  -p, --punk        Punk: A breaks free of the circle, dripping red blood
   -b, --bakunin     Bakunin: builds it, then blows it up
-  -k, --kropotkin   Mutual aid: two symbols slide in and meet
-  -n, --nogods      "No gods, no masters" + fire
+  -k, --kropotkin   Mutual aid: two symbols meet
+  -n, --nogods      "No gods, no masters"
   --plain           No color (for the truly ascetic)
   -h, --help        Help
 ```
 
 ```bash
 anarchy-a               # The full experience
-anarchy-a -p            # Punk graffiti mode -- A explodes out, screen bleeds
-anarchy-a -b            # Builds then destroys (very on brand)
+anarchy-a -p            # Punk graffiti mode - A explodes out, screen bleeds
+anarchy-a -b            # Builds then destroys
 anarchy-a -k            # Two symbols slide in and shake hands
-anarchy-a -n            # Fire. Obviously.
-anarchy-a -c -b         # Red + explosion. No further notes.
+anarchy-a -n            # Fire. Fire. Fire.
+anarchy-a -c -b         # Red/explosion. No further notes.
 anarchy-a -f -s 4       # Instant, large, no patience
-anarchy-a -d 60000 -r   # Slow drag + rainbow, for the dreamy anarchists
+anarchy-a -d 60000 -r   # Slow drag/rainbow, for the dreamers
 ```
 
 ---
@@ -87,21 +87,20 @@ anarchy-a -d 60000 -r   # Slow drag + rainbow, for the dreamy anarchists
 
 ### Nobody asked your permission and that's the whole point
 
-The Circle-A is a capital A -- for *anarchy* -- enclosed in a circle. It is the most
+The Circle-A is a capital A - for *anarchy* - enclosed in a circle. It is the most
 universally recognized symbol of anarchism, one of the most reproduced political
 symbols on the planet, and almost certainly on a jacket within 50 feet of you right
 now. You have seen it on walls, on patches, on record sleeves, on the forearms of
 people your parents warned you about, and on the inside cover of at least one notebook
-from 1994.
+from 1999.
 
-You have probably drawn it yourself. That's the thing about this symbol -- it just
-wants to be drawn. It has five elements:
+You have probably drawn it yourself. This symbol wants to be drawn. It has five elements:
 
 - Upper arc of the circle
 - Lower arc of the circle
 - Left leg of the A `/`
 - Right leg of the A `\`
-- The crossbar `-` -- always red, because of course it is
+- The crossbar `-` -- always red, because F%!$ YOUR FEELINGS
 
 Five strokes. Efficient. Defiant. No committee approved this design. No trademark
 was registered. No logo brief was issued. A nineteen-year-old in Paris decided
@@ -121,7 +120,7 @@ philosophy.
 The motivation was embarrassingly practical: communists had the hammer and sickle,
 a simple, spray-can-friendly symbol you could tag in three seconds. Anarchists --
 who had been around longer, had more interesting ideas, and were arguably more
-fun at parties -- had nothing equivalent. Every time they wanted to mark their
+fun at parties - had nothing equivalent. Every time they wanted to mark their
 presence they basically had to write an essay on the wall.
 
 Ibáñez laid it out plainly: they needed something that would make "practical
@@ -145,7 +144,7 @@ thought hard enough about it.
 
 Ibáñez himself, in a 2024 essay on the symbol's 60th anniversary, pushed back on
 this. He noted that the O-for-order reading wasn't something he and his companions
-debated when they created the symbol -- it was a retrospective interpretation
+debated when they created the symbol - it was a retrospective interpretation
 that spread and stuck. He pointed to the punk variants where the A's legs
 extend beyond the circle as evidence that the circle-as-O reading was never
 the original intent.
@@ -163,7 +162,7 @@ and 70s. Then, in 1977, a band called **Crass** formed in a commune in Essex,
 England, and everything changed.
 
 Crass weren't your average punk band. They lived collectively. They self-released
-records. They designed their own artwork -- angular, confrontational, black and
+records. They designed their own artwork - angular, confrontational, black and
 white. They printed their own posters. They practiced what they screamed about.
 And they adopted the Circle-A in **red**, making it the visual centerpiece of
 anarcho-punk's aesthetic.
@@ -189,8 +188,8 @@ By the early 1880s, black was already established as an anarchist color. The "Bl
 International" name was used by a London-based anarchist group founded in 1881. But
 the moment that cemented it happened on **March 9, 1883**, in Lyon, France.
 
-**Louise Michel** -- teacher, poet, veteran of the Paris Commune, already convicted
-once and sentenced to a penal colony for her role in the uprising -- carried a black
+**Louise Michel**  teacher, poet, veteran of the Paris Commune, already convicted
+once and sentenced to a penal colony for her role in the uprising - carried a black
 flag made from a rag and a broom handle through the streets in protest against hunger
 and poverty. When put on trial, she told the court:
 
@@ -208,12 +207,12 @@ behind it at Kropotkin's funeral in 1921. It never stopped.
 
 ### The cast of characters (your field guide to the flags)
 
-**Pierre-Joseph Proudhon (1809--1865)** -- The first person to call himself an
+**Pierre-Joseph Proudhon (1809-1865)** - The first person to call himself an
 anarchist. Coined *"property is theft"* in 1840. Was subsequently unable to attend
 a dinner party without causing a scene. Wrote *What Is Property?* at 31. Had the
 confident beard of a man who was absolutely certain he was right.
 
-**Mikhail Bakunin (1814--1876)** -- *"The urge to destroy is also a creative urge,"*
+**Mikhail Bakunin (1814-1876)** - *"The urge to destroy is also a creative urge,"*
 1842. Russian. Revolutionary. Imprisoned, exiled, escaped, kept going. Feuded with
 Marx for years in a conflict that was genuinely about ideas and not at all about
 the fact that they had identical energies and couldn't both be in the same room.
@@ -221,7 +220,7 @@ The `-b / --bakunin` flag is his: the symbol is built completely, there is a
 pause, and then it is destroyed in an expanding shockwave. Creative destruction.
 Philosophically correct.
 
-**Peter Kropotkin (1842--1921)** -- Wrote *Mutual Aid: A Factor of Evolution* (1902),
+**Peter Kropotkin (1842-1921)** - Wrote *Mutual Aid: A Factor of Evolution* (1902),
 arguing that cooperation rather than competition was the primary driver of evolutionary
 success. Was a prince. Gave it up. Moved to London. Kept writing. Had the most
 impressive beard in the entire history of anarchism, which is saying something.
@@ -230,21 +229,20 @@ edges of the screen and meet in the middle** -- because mutual aid, because
 cooperation, because two symbols arriving alone and becoming adjacent is the
 whole argument in 200 milliseconds.
 
-**Louise Michel (1830--1905)** -- "The Red Virgin of Montmartre." Teacher, poet,
+**Louise Michel (1830-1905)** - "The Red Virgin of Montmartre." Teacher, poet,
 anarchist, Paris Commune commander, twice convicted, twice kept going. Carried
 the black flag. Never stopped. Icon. Full stop.
 
-**Crass (1977--1984)** -- The Essex commune punk band who painted the Circle-A
+**Crass (1977-1984)** - The Essex commune punk band who painted the Circle-A
 red and spray-painted it onto the walls of a generation. Brought anarchist theory
 to kids who otherwise would have just been angry with no framework. Made it look
-cool to be principled. Still unavailable for reunion tours because that would
-contradict everything they stood for.
+cool to be principled. Still unavailable for reunion tours.
 
 ---
 
 ### "No gods, no masters"
 
-*Ni Dieu ni Maître* -- no gods, no masters -- has been attached to anarchist
+*Ni Dieu ni Maître* - no gods, no masters - has been attached to anarchist
 philosophy since at least the 1870s. It appeared as the title of Auguste Blanqui's
 newspaper in 1880. It spread through Kropotkin's *Words of a Rebel* in 1885. It
 appeared in the 1896 Bordeaux anarchist manifesto. Margaret Sanger used it as the
@@ -262,17 +260,17 @@ because some phrases deserve punctuation.
 ### Punk mode (`-p / --punk`)
 
 Punk variants of the Circle-A frequently show the A's legs extending **beyond**
-the circle -- breaking free of the enclosure, refusing containment. This is the
+the circle - breaking free of the enclosure, refusing containment. This is the
 visual argument: the A doesn't need the circle's permission. The symbol exceeds
 its frame.
 
 In `-p` mode, the A is drawn taller and wider than the circle, its peak above and
 feet below the arc. After the symbol is complete, **red paint starts dripping** from
 every lit pixel, running down the screen in streaks that pool and spread until the
-whole terminal floods red. Then it clears.
+whole terminal bleeds. Then it clears.
 
 It's the most visually dramatic mode. It's also the most thematically accurate.
-Punk didn't stay inside the lines either.
+Punk didn't stay inside the lines.
 
 ---
 
@@ -316,18 +314,18 @@ positive → `\`, negative → `/`. No lookup tables, just geometry.
 
 ### The finales
 
-**`-b` Bakunin** -- flash, shockwave ring, every lit pixel becomes debris with
+**`-b` Bakunin** - flash, shockwave ring, every lit pixel becomes debris with
 velocity and gravity, fallout of ash. Named for Bakunin's 1842 "creative urge."
 
-**`-p` Punk** -- the A extends beyond the circle, then red paint drips from every
+**`-p` Punk** - the A extends beyond the circle, then red paint drips from every
 pixel down the screen until it floods red. Clears. Named for nothing, explained by
 everything.
 
-**`-n` No gods** -- "No gods, no masters" tagline, then fire crawls up from the
+**`-n` No gods** - "No gods, no masters" tagline, then fire crawls up from the
 bottom and burns the screen bright before dying down to ash. Named for Blanqui,
 Kropotkin, Sanger, and everyone who wrote it on a wall.
 
-**`-k` Kropotkin** -- two symbols slide in from opposite sides and meet in the middle
+**`-k` Kropotkin** - two symbols slide in from opposite sides and meet in the middle
 with a small bounce, then rest adjacent. Named for *Mutual Aid* (1902).
 
 ---
