@@ -6,7 +6,7 @@ BINDIR  := $(PREFIX)/bin
 MANDIR  := $(PREFIX)/share/man/man6
 BINARY  := anarchy-a
 SRC     := anarchy_a/anarchy-a.c
-VERSION := $(shell cat VERSION 2>/dev/null || echo "1.0.4")
+VERSION := $(shell cat VERSION 2>/dev/null || echo "1.0.7")
 TARBALL := anarchy-a-$(VERSION).tar.gz
 
 .PHONY: all install uninstall clean dist check
