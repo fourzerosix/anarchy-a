@@ -1,5 +1,5 @@
 """anarchy_a -- Draw the Circle-A anarchy symbol in your terminal."""
-__version__ = "1.0.0"
+__version__ = "1.0.7"
 __all__ = ["main", "run"]
 import os, sys, subprocess, shutil, tempfile
 from pathlib import Path
