@@ -2,9 +2,9 @@
 
 > *You didn't ask permission to draw this. Good. You never needed it.*
 
-Pretty Doc: https://fourzerosix.github.io/anarchy-a/
-PyPi: https://pypi.org/project/anarchy-a/
-Docker: https://hub.docker.com/r/fourzerosix/anarchy-a
+- Pretty Doc: https://fourzerosix.github.io/anarchy-a/
+- PyPi: https://pypi.org/project/anarchy-a/
+- Docker: https://hub.docker.com/r/fourzerosix/anarchy-a
 
 ```
           ----------
