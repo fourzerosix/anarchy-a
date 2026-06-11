@@ -5,7 +5,7 @@ PREFIX  ?= /usr/local
 BINDIR  := $(PREFIX)/bin
 MANDIR  := $(PREFIX)/share/man/man6
 BINARY  := anarchy-a
-SRC     := anarchy-a/anarchy-a.c
+SRC     := anarchy_a/anarchy-a.c
 VERSION := $(shell cat VERSION 2>/dev/null || echo "1.0.0")
 TARBALL := anarchy-a-$(VERSION).tar.gz
 
