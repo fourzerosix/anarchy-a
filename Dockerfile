@@ -4,7 +4,7 @@ RUN apk add --no-cache gcc musl-dev make
 
 WORKDIR /build
 
-COPY anarchy-a/anarchy-a.c anarchy-a/
+COPY anarchy_a/anarchy-a.c anarchy_a/
 COPY Makefile VERSION ./
 
 RUN make
