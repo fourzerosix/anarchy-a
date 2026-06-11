@@ -30,10 +30,8 @@ Wikipedia = "https://en.wikipedia.org/wiki/Anarchist_symbolism"
 [project.scripts]
 anarchy-a = "anarchy_a:main"
 
-[tool.setuptools.packages.find]
-include = ["anarchy_a*"]
-
 [tool.setuptools]
+packages = ["anarchy_a"]
 include-package-data = true
 
 [tool.setuptools.package-data]
