@@ -1,5 +1,11 @@
 # anarchy-a
 
+> *You didn't ask permission to draw this. Good. You never needed it.*
+
+Pretty Doc: https://fourzerosix.github.io/anarchy-a/
+PyPi: https://pypi.org/project/anarchy-a/
+Docker: https://hub.docker.com/r/fourzerosix/anarchy-a
+
 ```
           ----------
       //--          --\
@@ -18,7 +24,6 @@
           ----------
 ```
 
-> *You didn't ask permission to draw this. Good. You never needed it.*
 
 `anarchy-a` draws the **Circle-A** -- stroke by stroke, arc by arc, in ANSI
 color -- right in your terminal. Five stages. Sparks flying. Optional explosion.
