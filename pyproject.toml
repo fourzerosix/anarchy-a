@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "anarchy-a"
-version = "1.0.2"
+version = "1.0.4"
 description = "Draw the Circle-A anarchy symbol in your terminal"
 readme = "README.md"
 license = "GPL-3.0-or-later"
@@ -28,11 +28,11 @@ Homepage = "https://github.com/fourzerosix/anarchy-a"
 Wikipedia = "https://en.wikipedia.org/wiki/Anarchist_symbolism"
 
 [project.scripts]
-anarchy-a = "anarchy_a:main"
+anarchy-a = "anarchy-a:main"
 
 [tool.setuptools]
-packages = ["anarchy_a"]
+packages = ["anarchy-a"]
 include-package-data = true
 
 [tool.setuptools.package-data]
-anarchy_a = ["*.c"]
+anarchy-a = ["*.c"]
