@@ -28,11 +28,11 @@ Homepage = "https://github.com/fourzerosix/anarchy-a"
 Wikipedia = "https://en.wikipedia.org/wiki/Anarchist_symbolism"
 
 [project.scripts]
-anarchy-a = "anarchy-a:main"
+anarchy-a = "anarchy_a:main"
 
 [tool.setuptools]
-packages = ["anarchy-a"]
+packages = ["anarchy_a"]
 include-package-data = true
 
 [tool.setuptools.package-data]
-anarchy-a = ["*.c"]
+anarchy_a = ["*.c"]
