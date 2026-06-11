@@ -1,6 +1,6 @@
 # anarchy-a
 
-> *You didn't ask permission to draw this. Good. You never needed it.*
+> *You didn't ask permission - you never needed it.*
 
 - Pretty Doc: https://fourzerosix.github.io/anarchy-a/
 - PyPi: https://pypi.org/project/anarchy-a/
