@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "anarchy-a"
-version = "1.0.4"
+version = "1.0.7"
 description = "Draw the Circle-A anarchy symbol in your terminal"
 readme = "README.md"
 license = "GPL-3.0-or-later"
