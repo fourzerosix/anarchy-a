@@ -1,7 +1,7 @@
 FROM alpine:3.19 AS builder
 RUN apk add --no-cache gcc musl-dev make
 WORKDIR /build
-COPY src/anarchy-a.c src/
+COPY anarchy-a/anarchy-a.c anarchy-a/
 COPY Makefile VERSION ./
 RUN make
 
